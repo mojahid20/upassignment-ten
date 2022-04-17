@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/3vBDw4V/image-3.jpg",
+        "name": "Deer",
+        
+        "description": "We all know that forests play a vital role in tackling climate . But did you know that the wild animals in these forests also have a crucial role to play we also play"
+        
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/CsLwSH0/image-1.jpg",
+        "name": "Butterfly",
+        
+        "description": "We all struggle to survive Insects and butterflies around us also struggle to survive Life is not a flower bed we are fight agins our food. you have no gains  all time as you wish "
+        
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/PmTswb3/image-7.jpg",
+        "name": "dogy",
+        
+        "description": "Their dung and urine helps replenish the nutrient content of the soil by providing it with enriching minerals. –in grasslands brings nutrients back to the river through their dung."
+        
+    }
+    
+    
+    
+]

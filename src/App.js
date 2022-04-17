@@ -10,7 +10,7 @@ import Footer from './Pages/Sheard/Footer/Footer';
 function App() {
   return (
     <div className="App">
-         <h1>hallow mojhid</h1>
+         
          <Header />
          <Routes>
            <Route path='/' element={<Home />}></Route>
