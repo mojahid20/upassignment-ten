@@ -19,9 +19,9 @@ const Banner = () => {
           src={image1}min-height='300px'
           alt="First slide"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="mb-5">
           <h3>If animals live, we will live</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>We all love animals. And we should all protect animals</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -31,9 +31,9 @@ const Banner = () => {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption className="mb-5">
+          <h3>My hobby is photography</h3>
+          <p>We all love animals. And we should all protect animals.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -43,8 +43,8 @@ const Banner = () => {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <Carousel.Caption className="mb-5">
+          <h3>My hobby is photography</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
