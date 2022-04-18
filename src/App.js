@@ -12,6 +12,8 @@ import Datiles from './Pages/Datiles/Datiles';
 import Notfound from './Pages/Sheard/Notfound/Notfound';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
+import RequirAuth from './Pages/Login/RequirAuth/RequirAuth';
+import Checkout from './Pages/Checkout/Checkout/Checkout';
 
 function App() {
   return (
@@ -26,6 +28,11 @@ function App() {
            <Route path='/about' element={<About />}></Route>
            <Route path='/login' element={<Login />}></Route>
            <Route path='/register' element={<Register />}></Route>
+           <Route path='/checkou' element={
+             <RequirAuth>
+               <Checkout></Checkout>
+             </RequirAuth>
+           }></Route>
            <Route path='*' element={<Notfound />}></Route>
          </Routes>
          <Footer />
