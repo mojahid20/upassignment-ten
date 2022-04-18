@@ -9,7 +9,7 @@ const Datiles = () => {
         <div>
             <h2>datalls:{serviceId}</h2>
            <Link to='<Checkout /'>
-             <button></button>
+             <button className='btn btn-primary'>proced checkout</button>
            </Link>
         </div>
     );

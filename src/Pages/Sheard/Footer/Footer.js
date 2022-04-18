@@ -1,10 +1,10 @@
-
+import './Footer.css';
 
 const Footer = () => {
     
     return (
         <footer>
-            <p>footer</p>
+            <p >All resourse are free from  <span >"&copy;"</span></p>
         </footer>
     );
 };
